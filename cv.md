@@ -27,7 +27,12 @@ Valery Kryvenka
 * HTML5, CSS3. (SCSS, BEM)
 * figma
 
-
+### Code example: ###
+```
+function disemvowel(str) {
+  return str.replace(/[aeuio]/gi,'');
+}
+```
 
 
 
