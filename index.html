@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
@@ -16,7 +14,6 @@
             box-sizing: inherit;
             margin: 0;
         }
-
         main {
             display: flex;
             min-height: 100vh;
@@ -26,10 +23,17 @@
         }
         .section {
             width: 45%;
-            margin: 0 auto;
-            border: 1px solid black;
-        }
+            margin: .7em auto 0;
+            padding: 1.5em;
 
+            background-color: rgba(196, 196, 196, 0.35);
+        }
+        .header {
+            display: flex;
+        }
+        .header > img {
+            width: 150px;
+        }
         .footer {
             height: 300px;
             width: 100%;
@@ -41,7 +45,14 @@
 <body>
 <main>
     <section class="section">
-
+        <div class="header">
+            <img src="images/avatar.png" alt="avatar">
+            <div>
+                <h3>Kryvenka</h3>
+                <h2>Valery</h2>
+                <p>Front-end developer</p>
+            </div>
+        </div>
     </section>
     <section class="section">
 
