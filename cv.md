@@ -28,11 +28,17 @@ Valery Kryvenka
 * figma
 
 ### Code example: ###
+
 ```
 function disemvowel(str) {
   return str.replace(/[aeuio]/gi,'');
 }
 ```
 
+### Education: ###
 
+* It-incubator
+* Russian State Social University
+* Service College
 
+### English lvl: pre-intermediate ###
