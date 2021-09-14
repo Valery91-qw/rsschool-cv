@@ -8,53 +8,97 @@
         :root {
             box-sizing: border-box;
         }
+
         *,
         ::before,
         ::after {
             box-sizing: inherit;
             margin: 0;
         }
+
         main {
             display: flex;
             min-height: 100vh;
 
-            background: linear-gradient(rgba(3,56,244,71), rgba(224,37,206,79));
+            background: linear-gradient(rgba(3, 56, 244, 0.71), rgba(224, 37, 206, 0.79));
             border: 1px solid black;
         }
-        .section {
+
+        section {
             width: 45%;
             margin: .7em auto 0;
             padding: 1.5em;
 
             background-color: rgba(196, 196, 196, 0.35);
         }
-        .header {
+
+        article {
             display: flex;
+            width: 100%;
+            align-items: center;
+            background-color: rgba(196, 196, 196, 35);
         }
-        .header > img {
-            width: 150px;
+
+        /* Profile */
+        .profile {
+            display: flex;
+            font-family: Montserat, sans-serif;
+            align-items: center;
         }
+
+        .profile > img {
+            width: 10em;
+        }
+        .profile > div {
+            margin: 0 2em;
+        }
+
+        .profile > div > h3 {
+            font-weight: 200;
+            font-size: 2em;
+            color: #CECACA;
+            margin-bottom: 0.75em;
+        }
+
+        .profile > div > h2 {
+            font-weight: 500;
+            font-size: 3em;
+            color: #FFFFFF;
+            margin-bottom: 0.5em;
+        }
+
+        .profile > div > h4 {
+            font-weight: 700;
+            font-size: 1em;
+            color: #CECACA;
+        }
+
         .footer {
             height: 300px;
             width: 100%;
 
             border: 1px solid black;
         }
+
     </style>
 </head>
 <body>
 <main>
-    <section class="section">
-        <div class="header">
+    <section class="about-me">
+        <div class="profile">
             <img src="images/avatar.png" alt="avatar">
             <div>
                 <h3>Kryvenka</h3>
                 <h2>Valery</h2>
-                <p>Front-end developer</p>
+                <h4>Front-end developer</h4>
             </div>
         </div>
+        <article>
+            <img src="images/mail.png" alt="mail">
+            <span>valery91@gmail.com</span>
+        </article>
     </section>
-    <section class="section">
+    <section class="skills">
 
     </section>
 </main>
