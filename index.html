@@ -68,10 +68,6 @@
             list-style-type: none;
         }
 
-        .about-me article > ul > li:first-child {
-            color: #6c6868;
-        }
-
         /* Profile */
         .profile {
             display: flex;
@@ -115,7 +111,31 @@
             background-color: rgb(255, 255, 255);
             border-radius: 1em;
         }
-
+        .skills > article {
+            margin: 1em auto;
+        }
+        .skills > article > h3 {
+            position: relative;
+            display: inline-block;
+            font-family: Montserat, sans-serif;
+            font-weight: 600;
+            font-size: 1.1428em;
+            color: #FFFFFF;
+            padding: 0.5em 1.5em;
+            background-color: #545454;
+            border-radius: 1em;
+        }
+        .skills > article > h3::after {
+            position: absolute;
+            content: '';
+            top: 45%;
+            width: 20em;
+            height: 3px;
+            background-color: #545454;
+        }
+        .skills > article > div {
+            margin-top: 0.5em;
+        }
         .footer {
             height: 300px;
             width: 100%;
@@ -168,7 +188,27 @@
         </article>
     </section>
     <section class="skills">
-
+        <article>
+            <h3>Experience</h3>
+            <div>
+                <h4>Freelance</h4>
+                <h5>Front-end developer</h5>
+                <h6>Nov 2020 - preset...</h6>
+                <p>Fix bugs, layout pages, creating different forms, working with different web-api</p>
+            </div>
+            <div>
+                <h4>Installation of low-current systems</h4>
+                <h5>individual entrepreneur</h5>
+                <h6>Aug 2019 - Jan 2020</h6>
+                <p>Configuring and connecting client hardware to the DOCSIS & FTTB network</p>
+            </div>
+            <div>
+                <h4>Signaling system installer</h4>
+                <h5>Installer</h5>
+                <h6>2014 - May 2019</h6>
+                <p>Installation of electrical equipment on the railway, commissioning.Since 2018 foreman</p>
+            </div>
+        </article>
     </section>
 </main>
 <footer class="footer">
