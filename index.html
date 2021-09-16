@@ -19,9 +19,11 @@
         a {
             color: #FFFFFF;
         }
+
         body {
             position: relative;
         }
+
         main {
             display: flex;
             min-height: 100vh;
@@ -41,6 +43,7 @@
 
         .about-me > article {
             display: flex;
+            flex-wrap: wrap;
             margin: 0.5em;
             width: 100%;
             align-items: center;
@@ -60,13 +63,15 @@
             margin: 0.3em;
         }
 
-        .about-me article > ul > li {
+        .about-me > article > ul {
+            width: 100%;
+        }
+
+        .about-me > article > ul > li {
             margin: 0.3em 0;
 
             font-size: 1.3em;
             color: #FFFFFF;
-
-            list-style-type: none;
         }
 
         /* Profile */
@@ -104,6 +109,8 @@
             color: #CECACA;
         }
 
+        /*Skills*/
+
         .skills {
             width: 45%;
             margin: .7em auto 0;
@@ -112,9 +119,11 @@
             background-color: rgb(255, 255, 255);
             border-radius: 1em;
         }
+
         .skills > article {
             margin: 1em auto;
         }
+
         .skills > article > h3 {
             position: relative;
             display: inline-block;
@@ -126,6 +135,7 @@
             background-color: #545454;
             border-radius: 1em;
         }
+
         .skills > article > h3::after {
             position: absolute;
             content: '';
@@ -134,41 +144,48 @@
             height: 3px;
             background-color: #545454;
         }
+
         .skills > article > div {
             margin-top: 0.5em;
         }
+
         .skills > article > div > h4 {
             padding: 0.3em 0;
 
-            font-family: Calibri,serif;
+            font-family: Calibri, serif;
             font-weight: 900;
             font-size: 1.5em;
             color: #343434;
         }
+
         .skills > article > div > h5 {
-            font-family: Calibri,serif;
+            font-family: Calibri, serif;
             font-weight: bold;
             font-size: 1.2em;
             color: #343434;
         }
+
         .skills > article > div > h6 {
             font-size: 1em;
-            font-family: Calibri,serif;
+            font-family: Calibri, serif;
             font-weight: 300;
             color: #73808D;
         }
+
         .skills > article > div > p {
             padding: 0.5em 0 0;
             font-size: 1em;
-            font-family: Calibri,serif;
+            font-family: Calibri, serif;
             font-weight: 300;
         }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50%;
-            border: 1px solid black;
+
+        .skills > article > div > ul > li {
+            padding: 0.3em;
+            list-style-type: none;
+        }
+
+        .skills > article > div > ul > li > a {
+            color: #343434;
         }
     </style>
 </head>
@@ -193,7 +210,7 @@
         </article>
         <article>
             <img src="images/website.png" alt="website">
-            <h3><a href="https://github.com/Valery91-qw">git-hub</a></h3>
+            <h3><a href="https://github.com/Valery91-qw" target="_blank">git-hub</a></h3>
         </article>
         <article>
             <img src="images/location.png" alt="location">
@@ -209,8 +226,20 @@
         <article>
             <h3>Social:</h3>
             <ul>
-                <li><a href="https://www.linkedin.com/in/valery-kryveka-486055204/">Linkedin</a></li>
-                <li><a href="https://t.me/vaKriv">Telegram</a></li>
+                <li><a href="https://www.linkedin.com/in/valery-kryveka-486055204/" target="_blank">Linkedin</a></li>
+                <li><a href="https://t.me/vaKriv" target="_blank">Telegram</a></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Skills:</h3>
+            <ul>
+                <li>React</li>
+                <li>Redux</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Jest</li>
+                <li>HTML</li>
+                <li>CSS</li>
             </ul>
         </article>
     </section>
@@ -254,10 +283,22 @@
                 <h6>2020</h6>
             </div>
         </article>
+        <article>
+            <h3>Code example:</h3>
+            <div>
+                <h4>Portfolio:</h4>
+                <ul>
+                    <li><a href="https://valery91-qw.github.io/resume/" target="_blank">deploy version</a></li>
+                    <li><a href="https://github.com/Valery91-qw/resume" target="_blank">repository</a></li>
+                </ul>
+                <h4>Searching images:</h4>
+                <ul>
+                    <li><a href="https://valery91-qw.github.io/elinext-flickr/" target="_blank">deploy version</a></li>
+                    <li><a href="https://github.com/Valery91-qw/elinext-flickr" target="_blank">repository</a></li>
+                </ul>
+            </div>
+        </article>
     </section>
 </main>
-<footer class="footer">
-
-</footer>
 </body>
 </html>
