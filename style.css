@@ -1,0 +1,182 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+
+    background: linear-gradient(rgba(3, 56, 244, 0.71), rgba(224, 37, 206, 0.79));
+}
+
+/* about-me */
+.about-me {
+    width: 45%;
+    margin: .7em auto 0;
+    padding: 1.5em;
+
+    background-color: rgba(196, 196, 196, 0.35);
+    border-radius: 1em;
+}
+
+.about-me > article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    width: 100%;
+    align-items: center;
+
+    background-color: rgba(196, 196, 196, 0.35);
+    border-radius: 1em;
+}
+
+.about-me article > img {
+    margin: 0.5em;
+}
+
+.about-me article > h3 {
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin: 0.3em;
+}
+
+.about-me > article > ul {
+    width: 100%;
+}
+
+.about-me > article > ul > li {
+    margin: 0.3em 0;
+
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    font-family: Montserat, sans-serif;
+    align-items: center;
+}
+
+.profile > img {
+    width: 10em;
+}
+
+.profile > div {
+    margin: 0 2em;
+}
+
+.profile > div > h3 {
+    font-weight: 200;
+    font-size: 2em;
+    color: #CECACA;
+    margin-bottom: 0.75em;
+}
+
+.profile > div > h2 {
+    font-weight: 500;
+    font-size: 3em;
+    color: #FFFFFF;
+    margin-bottom: 0.5em;
+}
+
+.profile > div > h4 {
+    font-weight: 700;
+    font-size: 1em;
+    color: #CECACA;
+}
+
+/*Skills*/
+
+.skills {
+    width: 45%;
+    margin: .7em auto 0;
+    padding: 1.5em;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+.skills > article {
+    margin: 1em auto;
+}
+
+.skills > article > h3 {
+    position: relative;
+    display: inline-block;
+    font-family: Montserat, sans-serif;
+    font-weight: 600;
+    font-size: 1.1428em;
+    color: #FFFFFF;
+    padding: 0.5em 1.5em;
+    background-color: #545454;
+    border-radius: 1em;
+}
+
+.skills > article > h3::after {
+    position: absolute;
+    content: '';
+    top: 45%;
+    width: 18em;
+    height: 3px;
+    background-color: #545454;
+}
+
+.skills > article > div {
+    margin-top: 0.5em;
+}
+
+.skills > article > div > h4 {
+    padding: 0.3em 0;
+
+    font-family: Calibri, serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: #343434;
+}
+
+.skills > article > div > h5 {
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #343434;
+}
+
+.skills > article > div > h6 {
+    font-size: 1em;
+    font-family: Calibri, serif;
+    font-weight: 300;
+    color: #73808D;
+}
+
+.skills > article > div > p {
+    padding: 0.5em 0 0;
+    font-size: 1em;
+    font-family: Calibri, serif;
+    font-weight: 300;
+}
+
+.skills > article > div > ul > li {
+    padding: 0.3em;
+    list-style-type: none;
+}
+
+.skills > article > div > ul > li > a {
+    color: #343434;
+}
