@@ -137,6 +137,11 @@ main {
     height: 3px;
     background-color: #545454;
 }
+@media screen and (max-width: 1090px){
+    .skills > article > h3::after {
+        width: 9em;
+    }
+}
 
 .skills > article > div {
     margin-top: 0.5em;
