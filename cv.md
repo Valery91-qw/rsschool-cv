@@ -22,6 +22,9 @@ _______________
 4. Git 
 5. figma
 
+## Projects: ##
+1. [nest.js project](https://github.com/Valery91-qw/nodejs2022Q2-service)
+
 ## Code example: ##
 ``` js
 var foo = function (bar) {
