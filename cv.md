@@ -19,6 +19,8 @@ _______________
 1. TypeScrypt, JavaScript, HTML and CSS.
 2. Front-end: React, Redux, Apollo clint, Material-UI
 3. Back-end: Node.js, Nest.js, Prisma, PostgresQL 
+4. Git 
+5. figma
 
 ## Code example: ##
 ``` js
