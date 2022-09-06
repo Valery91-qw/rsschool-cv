@@ -24,6 +24,7 @@ _______________
 
 ## Projects: ##
 1. [nest.js project](https://github.com/Valery91-qw/nodejs2022Q2-service)
+2. [rs-school final project](https://github.com/Valery91-qw/rslang)
 
 ## Code example: ##
 ``` js
