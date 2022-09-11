@@ -60,3 +60,21 @@ section img {
 .about > h2 {
   margin-bottom: 75px;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  height: 120px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 10px 5px;
+}
