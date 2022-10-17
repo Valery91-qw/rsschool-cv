@@ -18,8 +18,21 @@ img {
   display: block;
 }
 
+body {
+
+}
+
 header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
   display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
   justify-content: space-between;
   align-items: center;
   padding: 25px 50px;
@@ -44,21 +57,21 @@ header {
   margin-left: 0;
 }
 
-section {
-  display: flex;
-  justify-content: space-between;
-  height: 80%;
-  padding: 25px 50px;
-  border: 1px solid black;
+.about img {
+  max-width: 250px;
+  max-height: 200px;
 }
 
-section img {
-  width: 500px;
-  height: 500px;
+.about_description {
+  text-align: left;
 }
 
-.about > h2 {
+.about_description  h2 {
   margin-bottom: 75px;
+}
+
+.about_description p {
+  max-width: 50%;
 }
 
 footer {
